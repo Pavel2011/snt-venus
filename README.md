@@ -1,2 +1,2 @@
 # agroholding
-this is about grocery trader from Moscow Russia
+The site is about grocery trader from Moscow Russia
