@@ -48,6 +48,17 @@ span{
 .footer{
   position: fixed;
   top: 96vh;
+  width: 100vw;
   bottom: 0;
   height: 3rem;
+}
+@media (max-width:26rem) {
+  .footer{
+    top: 195rem;
+    /* bottom: 0; */
+  
+    position: absolute;    
+    height: 7rem;
+  }
+  
 }
