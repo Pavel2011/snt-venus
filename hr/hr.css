@@ -17,7 +17,7 @@ body{
   height: 100vh;
 }
 main{
-  position: absolute;
+  position: relative;
   top: 10rem;
   left: 0;
   font-family: 'Times New Roman', Times, serif;
@@ -43,8 +43,8 @@ span{
 
 
 .footer{
-  position: fixed;
-  top: 96vh;
+  position: absolute;
+  top: 105vh;
   bottom: 0;
   height: auto;
  
