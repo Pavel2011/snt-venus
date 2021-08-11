@@ -623,10 +623,13 @@ img:hover {
     padding-bottom: 0;
   }
 
+
+
   .v{
   flex-direction: column;
   width: 100%;
   }
+
   .v-2-left,
   .v-2-right,
   .v-2-right-upper,
@@ -757,6 +760,9 @@ height: auto;
 }
 .mobile-nav__item a{
 font-size: 1.5rem;
+}
+section.vton-section h1{
+  font-size: 2.0rem;
 }
   
 }
