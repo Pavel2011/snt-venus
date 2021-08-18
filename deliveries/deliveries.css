@@ -59,6 +59,10 @@ span{
   /* margin-left: 2rem;
   margin-right: 2rem; */
 }
+caption{
+  font-size: 1.6rem;
+  font-weight: 600;
+}
 .delivery-moscow{
   width: 100vw;
   height: fit-content;
