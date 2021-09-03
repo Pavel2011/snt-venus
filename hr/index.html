@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ООО Агрохолдинг, вакансии</title>
+  <title>Us, who we are Page</title>
   <link rel="shortcut icon" href="../favicon.jpg" />
   <!-- <link rel="stylesheet" href="shared.css" /> -->
   <link rel="stylesheet" href="../main.css" />
@@ -60,6 +60,9 @@
           <a href="../deliveries/index.html">Доставка</a>
         </li>
         <li class="main-nav__item">
+          <a href="hr/index.html">Вакансии</a>
+        </li>
+        <li class="main-nav__item">
           <a href="../contacts/index.html">Контакты</a>
         </li>
        
@@ -86,6 +89,9 @@
         <a href="../deliveries/index.html">Доставка</a>
       </li>
       <li class="mobile-nav__item">
+        <a href="hr/index.html">Вакансии</a>
+      </li> 
+      <li class="mobile-nav__item">
         <a href="../contacts/index.html">Контакты</a>
       </li>       
 </section>
@@ -96,17 +102,32 @@
     </h3>
     <h3>  Вакансии открыты:
       </h3>
-    <ul class="contacts-list">
-      <li> <span>Секретарь:</span>  ==========</li>
-      <li><span>Грузчик:</span>
-        ====================</li>
-      <li><span>Водитель</span> Категория А</li>
-        <li><span>Кладовщик:</span>=========== </li>
-      <li><span>Диспетчер на телефоне:</span>=============</li>
+    <ul class="pos-list">
+      <li class="pos"> 
+        <a href="#" class="position"><span>Начальник отдела по работе с клиентами</span> </a>
+        </li>
+      <li class="pos">
+        <a href="#" class="position"><span>Старший менеджер по работе с клиентами</span></a>
+        
+       </li>
+      <li class="pos">
+        <a href="#" class="position"><span>Менеджер по работе с клиентами</span> </a>
+        
+      </li>
+        <li class="pos"><span></span> </li>
+      <li class="pos"><span></span></li>
 
     </ul>
   </div>
- 
+  <section class="todo-section">
+  <h1 class="todos">todos</h1>
+  <form id="form">
+    <input type="text" class="input" id="input" placeholder="Enter your todo" autocomplete="off">
+
+    <ul class="todos" id="todos"></ul>
+  </form>
+  <small>Left click to toggle completed. <br> Right click to delete todo</small>
+</section>
 </main>
 <div class="footer">
   <div class="Flag icon">
@@ -141,5 +162,6 @@
   </div>
 </div>
 <script src="../script.js"></script>
+<script src="../todo.js"></script>
 </body>
 </html>
