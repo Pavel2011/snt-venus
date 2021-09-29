@@ -1,3 +1,9 @@
+function changeViewPort(key, val) {
+    var reg = new RegExp(key, "i"), oldval = document.querySelector('meta[name="viewport"]').content;
+    var newval = reg.test(oldval) ? oldval.split(/,\s*/).map(function(v){ return reg.test(v) ? key+"="+val : v; }).join(", ") : oldval+= ", "+key+"="+val ;
+    document.querySelector('meta[name="viewport"]').content = newval;
+}
+
 let mobileMenu=document.querySelector('.toggle-button');
 let mobileMenuModal=document.querySelector('.mobile-nav');
 console.log(mobileMenu);
