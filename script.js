@@ -1,9 +1,3 @@
-function changeViewPort(key, val) {
-    var reg = new RegExp(key, "i"), oldval = document.querySelector('meta[name="viewport"]').content;
-    var newval = reg.test(oldval) ? oldval.split(/,\s*/).map(function(v){ return reg.test(v) ? key+"="+val : v; }).join(", ") : oldval+= ", "+key+"="+val ;
-    document.querySelector('meta[name="viewport"]').content = newval;
-}
-
 let mobileMenu=document.querySelector('.toggle-button');
 let mobileMenuModal=document.querySelector('.mobile-nav');
 console.log(mobileMenu);
@@ -32,3 +26,17 @@ function toggleMenu(){
 mobileMenu.addEventListener('click',toggleMenu);
 mobCloseMenuBtn.addEventListener('click',closeMobMenu);
 backdrop.addEventListener('click',backdropClose);
+// ================local Storage===
+
+const posList=document.querySelector('.pos-list')
+console.log(posList);
+const position = document.querySelectorAll('.pos')[3];
+console.log(position);
+// const positionText=position.innerHTML='Medium';
+let li=document.createElement('li');
+li.classList.add('position');
+
+localStorage.setItem('position','Medium');
+
+
+// let liText=JSON.parse(localStorage.getItem('position'));
